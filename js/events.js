@@ -5,8 +5,8 @@ $(document).ready(function(){
 // call functions here
 
 function getIt(){
-  $('p').on("keypress", function(){
-    
+  $('p').on("click", function(){
+    alert "Hey!"
   })
 
 
